@@ -1,0 +1,23 @@
+html, body{
+    width: 100%;
+}
+
+#container{
+    background: #ccc;
+    border: 1px solid #999;
+    width: 800px;
+    height: 540px;
+    padding: 24px;
+    margin: 0px auto;
+}
+
+#container > div {
+    background: blue;
+    border: 1px solid #000;
+    width: 71px;
+    height: 71px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
